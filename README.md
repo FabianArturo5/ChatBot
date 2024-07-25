@@ -22,3 +22,18 @@ cd chatbot-automotriz
 ```bash
 python -m venv venv
 source venv/bin/activate  # En Windows, usa `venv\Scripts\activate`
+```
+### 3. Instalar Dependencias
+```bash
+pip install -r requirements.txt
+```
+### 4. Ejecutar el Servidor
+```bash
+python app.py
+```
+El chatbot estará disponible en http://127.0.0.1:5000/.
+Uso
+Una vez que el servidor esté en ejecución, abre tu navegador y ve a http://127.0.0.1:5000/. Puedes interactuar con el chatbot a través de la interfaz web.
+Cómo Funciona
+El chatbot está basado en el módulo nltk.chat de la biblioteca NLTK y está configurado para responder en español. Los pares de preguntas y respuestas están definidos en el archivo app.py. El chatbot utiliza expresiones regulares para identificar la entrada del usuario y proporcionar respuestas adecuadas.
+¡Gracias por usar Chatbot AutoMotriz!
