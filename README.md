@@ -4,36 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chatbot AutoMotriz - README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        pre {
-            background-color: #f4f4f4;
-            border: 1px solid #ddd;
-            padding: 10px;
-            overflow-x: auto;
-        }
-        code {
-            background-color: #f4f4f4;
-            padding: 2px 4px;
-            border-radius: 4px;
-        }
-        a {
-            color: #0066cc;
-        }
-        .note {
-            background-color: #ffffcc;
-            border: 1px solid #cccc99;
-            padding: 10px;
-            margin: 10px 0;
-        }
-    </style>
 </head>
 <body>
     <h1>Chatbot AutoMotriz</h1>
