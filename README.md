@@ -8,16 +8,16 @@
     <h1>Chatbot AutoMotriz</h1>
     <p>¡Bienvenido al proyecto Chatbot AutoMotriz! Este chatbot está diseñado para proporcionar información sobre vehículos, incluyendo modelos, precios y opciones de financiamiento. Utiliza Flask para la interfaz web y NLTK para el procesamiento del lenguaje natural.</p>
 
-    <h2>Características</h2>
-    <ul>
-        <li>Responde preguntas sobre modelos de autos y sus precios.</li>
-        <li>Proporciona información sobre autos eléctricos y usados.</li>
-        <li>Ofrece detalles sobre opciones de financiamiento y garantías.</li>
-        <li>Incluye respuestas personalizadas para diferentes consultas relacionadas con vehículos.</li>
-    </ul>
+    Características
+    
+        -Responde preguntas sobre modelos de autos y sus precios.
+        -Proporciona información sobre autos eléctricos y usados.
+        -Ofrece detalles sobre opciones de financiamiento y garantías.
+        -Incluye respuestas personalizadas para diferentes consultas relacionadas con vehículos.
+    
 
     <h2>Instalación</h2>
-    <p>Para instalar y ejecutar el chatbot en tu entorno local, sigue estos pasos:</p>
+    <p>Para instalar y ejecutar el chatbot en tu entorno local, sigue estos pasos:
 
     <h3>1. Clonar el Repositorio</h3>
     <pre><code>git clone https://github.com/tu_usuario/chatbot-automotriz.git
