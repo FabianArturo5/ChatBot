@@ -20,7 +20,7 @@ reflections_es = {
 pairs_es = [
     ['mi nombre es (.*)', ['Hola %1, ¿cómo puedo ayudarte hoy?']],
     ['hola|buenas|hey', ['¡Hola!', '¡Hey!', '¡Buenas!']],
-    ['como te llamas', ['Soy el Chatbot AutoMotriz, creado por [Tu Nombre].']],
+    ['como te llamas', ['Soy el Chatbot AutoMotriz, creado por Fabian Martinez.']],
     ['como estas', ['Estoy bien, gracias. ¿Y tú?', '¡Todo bien! ¿Y tú?']],
     ['adios|chau|hasta luego', ['¡Adiós! ¡Cuídate!']],
     ['que modelos de autos tienes', ['Tenemos una amplia gama de modelos, desde sedanes hasta SUVs. ¿Buscas algo en particular?']],

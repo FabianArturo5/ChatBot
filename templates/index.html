@@ -12,13 +12,16 @@
         <div id="chatbox">
             <div id="chatlog"></div>
         </div>
-        <input type="text" id="userInput" placeholder="Escribe tu mensaje...">
+        <input type="text" id="userInput" placeholder="Escribe tu mensaje..." onkeypress="handleKeyPress(event)">
         <button onclick="sendMessage()">Enviar</button>
     </div>
 
     <script>
         function sendMessage() {
             var userInput = document.getElementById("userInput").value;
+            if (userInput.trim() === "") {
+                return;
+            }
             var chatlog = document.getElementById("chatlog");
 
             var userDiv = document.createElement("div");
@@ -39,9 +42,16 @@
                 botDiv.className = "botMessage";
                 botDiv.innerHTML = "Bot: " + data.response;
                 chatlog.appendChild(botDiv);
+                chatlog.scrollTop = chatlog.scrollHeight;
             });
 
             document.getElementById("userInput").value = "";
+        }
+
+        function handleKeyPress(event) {
+            if (event.key === "Enter") {
+                sendMessage();
+            }
         }
     </script>
 </body>
