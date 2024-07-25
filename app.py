@@ -15,13 +15,18 @@ reflections_es = {
     "tuyo": "mío"
 }
 
-# Pares de preguntas y respuestas en español
+# Pares de preguntas y respuestas en español relacionadas con vehículos
 pairs_es = [
     ['mi nombre es (.*)', ['Hola %1, ¿cómo puedo ayudarte hoy?']],
     ['hola|buenas|hey', ['¡Hola!', '¡Hey!', '¡Buenas!']],
-    ['¿cómo te llamas?', ['Soy un chatbot creado por [Tu Nombre].']],
+    ['¿cómo te llamas?', ['Soy el Chatbot AutoMotriz, creado por [Tu Nombre].']],
     ['¿cómo estás?', ['Estoy bien, gracias. ¿Y tú?', '¡Todo bien! ¿Y tú?']],
     ['adiós|chau|hasta luego', ['¡Adiós! ¡Cuídate!']],
+    ['¿qué modelos de autos tienes?', ['Tenemos una amplia gama de modelos, desde sedanes hasta SUVs. ¿Buscas algo en particular?']],
+    ['¿cuál es el precio del (.*)?', ['El precio del %1 varía según las características y el año del modelo. ¿Te gustaría más información específica?']],
+    ['¿tienes autos eléctricos?', ['Sí, tenemos varios modelos eléctricos disponibles. ¿Te gustaría saber más sobre ellos?']],
+    ['¿cuáles son las marcas que manejas?', ['Trabajamos con marcas como Toyota, Honda, Ford, y muchas más. ¿Tienes alguna preferencia?']],
+    ['¿tienes autos usados?', ['Sí, tenemos una selección de autos usados certificados. ¿Buscas algún modelo o año en particular?']],
     ['(.*)', ['No estoy seguro de cómo responder a eso. ¿Puedes preguntar algo más?']]
 ]
 
