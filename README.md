@@ -18,7 +18,7 @@ cd chatbot-automotriz
 
 2. Crear un Entorno Virtual
 <pre><code>python -m venv venv
-source venv/bin/activate # En Windows, usa venv\Scripts\activate
+source venv/bin/activate # En Windows, usa venv\Scripts\activate</code>
 
 3. Instalar Dependencias
 <pre><code>pip install -r requirements.txt
