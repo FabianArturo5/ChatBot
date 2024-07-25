@@ -28,6 +28,7 @@
             userDiv.className = "userMessage";
             userDiv.innerHTML = "Tú: " + userInput;
             chatlog.appendChild(userDiv);
+            scrollToBottom();
 
             fetch("/get_response", {
                 method: "POST",
@@ -42,7 +43,7 @@
                 botDiv.className = "botMessage";
                 botDiv.innerHTML = "Bot: " + data.response;
                 chatlog.appendChild(botDiv);
-                chatlog.scrollTop = chatlog.scrollHeight;
+                scrollToBottom();
             });
 
             document.getElementById("userInput").value = "";
@@ -52,6 +53,11 @@
             if (event.key === "Enter") {
                 sendMessage();
             }
+        }
+
+        function scrollToBottom() {
+            var chatbox = document.getElementById("chatbox");
+            chatbox.scrollTop = chatbox.scrollHeight;
         }
     </script>
 </body>
